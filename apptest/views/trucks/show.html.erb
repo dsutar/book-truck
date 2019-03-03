@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @truck.name %>
+</p>
+
+<p>
+  <strong>Start time:</strong>
+  <%= @truck.start_time %>
+</p>
+
+<p>
+  <strong>End time:</strong>
+  <%= @truck.end_time %>
+</p>
+
+<%= link_to 'Edit', edit_truck_path(@truck) %> |
+<%= link_to 'Back', trucks_path %>

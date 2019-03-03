@@ -1,0 +1,37 @@
+@import "base/layout.scss";
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+  }
+  input {
+    font-size: 18px;
+    border: 1px solid $gray;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    margin: 10px 0 20px 0;
+    width: 75%;
+  }
+
+  button {
+    font-size: 18px;
+    background-color: $blue;
+    border-radius: 5px;
+    color: $white;
+    width: 75%;
+    height: 30px;
+  }
+
+  button:disabled {
+    background-color: $gray;
+  }
+
+  .errors {
+    color: red;
+  }
+}

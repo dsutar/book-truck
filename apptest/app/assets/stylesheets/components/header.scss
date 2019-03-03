@@ -1,0 +1,24 @@
+@import "base/colors.scss";
+
+.header {
+
+  margin-bottom: 20px;
+
+  h1 {
+    color: $blue;
+    padding: 20px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    a {
+      color: #aaa;
+    }
+
+    .active {
+      color: black;
+    }
+  }
+}
